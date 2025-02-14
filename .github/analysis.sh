@@ -7,7 +7,7 @@ export OPENAI_TEMPERATURE=0.7
 python .github/scripts/toc/independence_info.py
 cp independence_repo.json results/independence_repo.json
 
-python analysis/download.py
+python scripts/analysis/download.py
 
 echo "Download complete."
 
@@ -26,13 +26,13 @@ for index_file in index/*/search_index.yml; do
     python .github/scripts/file/analysis_search_index.py \
         -i "$index_file" \
         -o "$output_file"
-    python analysis/basic_report.py \
+    python scripts/analysis/basic_report.py \
         -i "$output_file" \
         -o "results/basic_report/${name}.md"
 done
 
 echo "Analysis complete. Results saved in results/"
 
-python analysis/merge_index.py
+python scripts/analysis/merge_index.py
 
 echo "Merge complete. Results saved in index/combined_index.yml"
