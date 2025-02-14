@@ -43,8 +43,8 @@ jobs:
       - name: Generate documents
         run: |
           # python .github/scripts/workflows/build_documents.py
-          make clean
-          make build
+          # make clean
+          # make build
       - name: Commit changes
         run: |
           git add .
