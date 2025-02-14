@@ -1,10 +1,10 @@
-site_name: 跨性别华语编年录
-repo_url: https://github.com/project-polymorph/trans-history
-edit_url: https://github.com/project-polymorph/trans-history/edit/main/docs/
-site_url: https://project-polymorph.github.io/trans-history/
-site_description: '跨性别华语编年录旨在以时间脉络为核心，系统整理与展示华语世界与跨性别议题相关的新闻报道、个人访谈、学术观点及社会回响。该项目聚焦于不同时期跨性别者所面临的社会文化环境、医疗条件和法律政策等要素，并兼具历史文献价值与现实关怀意义。'
-site_author: 性别多态图书馆
-copyright: '性别多态图书馆 2025'
+site_name: 多元性别中文数字图书馆
+repo_url: https://github.com/project-polymorph/homepage2
+edit_url: https://github.com/project-polymorph/homepage2/edit/main/docs/
+site_url: https://project-polymorph.github.io/homepage2/
+site_description: '希望成为中文多元性别社群历史的见证者与守护者，收集、整理、保存、传播跨性别与多元性别社群的历史资料'
+site_author: 性与性别多态计划
+copyright: '性与性别多态计划 2025'
 theme:
   name: material
   custom_dir: overrides
@@ -13,6 +13,7 @@ theme:
     - search.highlight
     - search.share
     - content.action.edit
+    - content.tabs.link
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress
@@ -47,6 +48,7 @@ theme:
   language: zh
 plugins:
   - search
+  - blog
   - social:
       cards_layout_options:
         font_family: Noto Sans SC
@@ -77,3 +79,21 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true

@@ -146,7 +146,7 @@
 
 ## 参考资料与版权信息
 
-具体内容已经时间轴索引信息，可参考：[跨性别与多元性别政策法规索引](result.md)
+具体内容已经时间轴索引信息，可参考：[跨性别与多元性别政策法规索引](../编年录/政策法规/result.md)
 
 1. [跨性别与多元性别档案：政府及官方组织文件](https://digital.transchinese.org/%E6%94%BF%E5%BA%9C%E5%8F%8A%E5%AE%98%E6%96%B9%E7%BB%84%E7%BB%87%E6%96%87%E4%BB%B6)  
 2. [概述 - 中国大陆跨性别相关法律法规变迁 Project-Trans.org](https://project-trans.org/china-legal/)  
