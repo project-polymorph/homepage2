@@ -28,7 +28,7 @@ for index_file in index/*/search_index.yml; do
         -o "$output_file"
     python scripts/analysis/basic_report.py \
         -i "$output_file" \
-        -o "results/basic_report/${name}.md"
+        -o "docs/文档/数据统计/${name}.md"
 done
 
 echo "Analysis complete. Results saved in results/"

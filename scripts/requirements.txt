@@ -2,3 +2,8 @@ python-dotenv
 requests
 yaml
 matplotlib
+wordcloud
+networkx
+seaborn
+pandas
+numpy
