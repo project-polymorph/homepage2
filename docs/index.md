@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+  - toc
+---    
 # 多元性别中文数字图书馆
 
 用技术保存历史，用文化点亮未来：一个致力于传承、传播跨性别与多元性别的知识与故事的中文平台。
@@ -109,7 +114,7 @@
     
     [:octicons-arrow-right-24: 访问资料库](https://fnovel.cdtsf.com)
 
--   :material-folder-alert:{ .lg .middle } __eunuch 相关文档与小说（限制级）__
+-   :material-folder-alert:{ .lg .middle } __阉割与去势相关文档与小说（限制级）__
 
     ---
     
@@ -117,7 +122,7 @@
     
     [:octicons-arrow-right-24: 访问资料库](https://enovel.cdtsf.com)
 
--   :material-folder-alert:{ .lg .middle } __TSF 变身文学档案（CDBOOK 短篇）__
+-   :material-folder-alert:{ .lg .middle } __TSF变身文学档案（CDBOOK短篇）__
 
     ---
     

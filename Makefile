@@ -5,6 +5,7 @@ build: analyze
 	make docs/文档/编年录/学术研究与调查报告
 	make docs/文档/编年录/政策法规
 	make docs/文档/编年录/综合索引
+	python scripts/generate_homepage.py
 
 # Add new analyze target and its dependencies
 analyze: download process-indices merge-index
@@ -58,3 +59,6 @@ clean:
 	rm -f docs/文档/编年录/.paper_index_state.json
 	rm -f docs/文档/编年录/.policy_index_state.json
 	rm -f docs/文档/编年录/.total_index_state.json
+	rm -rf results/*
+	rm -rf docs/文档/数据统计/*
+

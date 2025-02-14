@@ -14,7 +14,12 @@ def generate_markdown():
     # Calculate statistics
     total_size = sum(repo['size'] for repo in repos)
     
-    markdown = f"""# 多元性别中文数字图书馆
+    markdown = f"""---
+hide:
+  - navigation
+  - toc
+---    
+# 多元性别中文数字图书馆
 
 用技术保存历史，用文化点亮未来：一个致力于传承、传播跨性别与多元性别的知识与故事的中文平台。
 
