@@ -9,7 +9,7 @@ theme:
   name: material
   custom_dir: overrides
   language: zh
-  logo: assets/logo.png
+  logo: asserts/logo.png
   features:
     - search.suggest
     - search.highlight
