@@ -1,19 +1,21 @@
 site_name: 多元性别中文数字图书馆
 repo_url: https://github.com/project-polymorph/homepage2
 edit_url: https://github.com/project-polymorph/homepage2/edit/main/docs/
-site_url: https://project-polymorph.github.io/homepage2/
+site_url: https://transchinese.org
 site_description: '希望成为中文多元性别社群历史的见证者与守护者，收集、整理、保存、传播跨性别与多元性别社群的历史资料'
 site_author: 性与性别多态计划
 copyright: '性与性别多态计划 2025'
 theme:
   name: material
   custom_dir: overrides
+  language: zh
+  logo: imgs/logo.png
   features:
     - search.suggest
     - search.highlight
     - search.share
     - content.action.edit
-    - content.tabs.link
+    - content.action.view
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress
@@ -22,9 +24,7 @@ theme:
     - navigation.prune
     - navigation.path
     - navigation.top
-    - navigation.prune 
-    - navigation.indexes 
-    - navigation.tracking
+    - content.tabs.link
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -35,6 +35,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
+      primary: black
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -42,10 +43,10 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: white
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-  language: zh
 plugins:
   - search
   - blog
