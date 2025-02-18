@@ -132,7 +132,7 @@ def create_tag_wordcloud(tag_data, output_dir, input_file):
 def get_report_title(input_file):
     # Extract filename without extension and convert to title
     base_name = pathlib.Path(input_file).stem
-    return ' '.join(word.capitalize() for word in base_name.replace('_', ' ').split())
+    return ' '.join(word.capitalize() for word in base_name.replace('_', ' ').split()).replace('Analysis', '数据分析')
 
 def generate_markdown_report(input_file, output_file):
     # Load analysis results
