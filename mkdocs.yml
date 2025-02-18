@@ -14,8 +14,8 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-    - content.action.edit
-    - content.action.view
+    #- content.action.edit
+    #- content.action.view
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress
