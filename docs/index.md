@@ -3,31 +3,31 @@ hide:
   - navigation
   - toc
 ---    
-# 多元性别中文数字图书馆
+# 多元性别中文数字图书馆 - 文档库
 
-用技术保存历史，用文化点亮未来：一个致力于传承、传播跨性别与多元性别的知识与故事的中文平台。
+多元性别中文数字图书馆创建于 **2024 年**，致力于收录、保存并展示与多元性别相关的所有中文资料。我们关注跨性别、非二元性别、间性人，以及其他打破传统二元性别认知的多元群体，包含数十万份相关资料。作为一个非营利、开放共享的数字图书馆，我们希望在日益严苛的审查环境和不断消逝的中文数字世界中，守护多元性别社群的宝贵记忆与经验。
 
 <div class="grid cards" markdown>
 
--   :material-library:{ .lg .middle } __资料库__
+-   :material-library:{{ .lg .middle }} __资料库__
 
     ---
 
     共 10 个专题资料库
     
--   :material-book-multiple:{ .lg .middle } __资料总量__
+-   :material-book-multiple:{{ .lg .middle }} __资料总量__
 
     ---
 
-    30,258 份文档资料
+    30,259 份文档资料
 
--   :material-magnify:{ .lg .middle } __高效检索__
+-   :material-magnify:{{ .lg .middle }} __高效检索__
 
     ---
 
     使用强大的搜索系统快速找到所需内容
 
--   :material-robot:{ .lg .middle } __智能归档__
+-   :material-robot:{{ .lg .middle }} __智能归档__
 
     ---
 
@@ -88,6 +88,7 @@ hide:
     
     [:octicons-arrow-right-24: 访问资料库](https://unovel.transchinese.org)
 
+
 </div>
 
 ## 限制级存档库
@@ -97,6 +98,7 @@ hide:
     以下资料库包含成人内容，仅供成年人访问。
 
 <div class="grid cards" markdown>
+
 
 -   :material-folder-alert:{ .lg .middle } __成人变身文学与小说存档库（限制级）__
 
@@ -130,4 +132,5 @@ hide:
     
     [:octicons-arrow-right-24: 访问资料库](https://archive.cdtsf.com)
 
-</div>
+
+</div> 

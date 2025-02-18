@@ -49,7 +49,7 @@ theme:
         name: Switch to system preference
 plugins:
   - search
-  - blog
+  # - blog
   - social:
       cards_layout_options:
         font_family: Noto Sans SC
