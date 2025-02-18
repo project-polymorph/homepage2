@@ -21,7 +21,8 @@ theme:
     - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.prune
+    # - navigation.prune
+    - navigation.expand
     - navigation.path
     - navigation.top
     - content.tabs.link
